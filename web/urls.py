@@ -3,5 +3,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.home,name='home')
+    # http://localhost:8000/web/
+    path('contact/', views.home, name="index"),
+    path('contact/<int:contact_id>', views.contact, name="contact") # http://localhost:8000/web/contact/1
 ]

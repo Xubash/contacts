@@ -1,2 +1,2 @@
 # contacts
-Simple contact built on top of Django and Python
+A simple contact built on top of Django and Python
